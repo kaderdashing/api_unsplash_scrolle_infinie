@@ -1,0 +1,85 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #f1f1f1;
+  font-family: Open sans, Helvetica, sans-serif;
+  padding: clamp(20px, 5vw, 50px) 20px 10px;
+}
+.container{
+
+text-align: center;
+height: auto;
+width: 960px;
+margin: auto;
+
+}
+h1{
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  margin-bottom: 40px;
+}
+
+h1 span{
+font-weight: 400;
+
+}
+
+form{
+ text-align: left; 
+ height: auto;
+ margin-bottom: 15px;
+}
+
+form input{
+
+margin-left: 3px;
+height: 41px;
+width: 952px;
+border: none;
+border-radius: 3px;
+box-shadow: 0 5px 6px rgb(0 0 0 / 30%);
+margin-top: 5px;
+padding-left: 5px;
+font-size: 18px;
+
+}
+form label{
+font-size: 20px;
+}
+
+img{
+  margin:5px 5px 0px 5px;
+  height: 250px;
+  width: 310px;
+}
+.error-msg{
+  font-size: 18px;
+  text-align: left;
+  margin-left: 5px;
+text-align:left;
+
+}
+
+.scroll-img{
+height: 30px;
+width: 30px;
+}
+button{
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  padding: 10px;
+  border-radius: 50px;
+  border-color: black;
+  cursor: pointer;
+}
